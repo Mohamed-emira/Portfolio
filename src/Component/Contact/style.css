@@ -1,0 +1,65 @@
+.contact{
+    height: 550px;
+    overflow: hidden;
+}
+.contact-title{
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    font-weight: lighter;
+    top: 100px;
+}
+.contact .contact-title span{
+    color: black;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.form-input{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
+.contact-form .form-input input{
+    width: 25%;
+    margin:1px;
+    height: 25px;
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+.contact-subject{
+    position: relative;
+    left: 25%;
+    top: 130px;
+}
+.contact-subject input{
+    width: 50%;
+    height: 25px;
+}
+.contact-textarea textarea{
+    width: 50%;
+    outline: 0;
+    background-color: rgb(134, 130, 130);
+}
+.contact-textarea{
+    position: relative;
+    left: 25%;
+    top: 140px;
+}
+.contact-textarea input{
+    width: 50%;
+    background-color: white;
+    cursor: pointer;
+    border:solid 2px gainsboro;
+}
+/*media*/
+@media screen and (max-width:400px) {
+    .contact-title{
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        font-weight: lighter;
+        top: 70px;
+    } }
+ 

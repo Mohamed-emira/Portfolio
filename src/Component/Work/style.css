@@ -1,0 +1,141 @@
+.work{
+    height: 630px;
+
+}
+.work-title{
+    padding-top: 20px;
+}
+.parts{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.part{
+    width: 400px;
+    height: 470px;
+    border: solid .5px gainsboro;
+    margin-right: 30px;
+}
+.icon{
+    color:rgb(121, 107, 107);
+    font-size: 25px;
+    position: relative;
+    left: 50%;
+    top: 25%;
+}
+.work-header{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    color: orangered;
+}
+.work-line{
+        position: relative;
+    width: 85%;
+    top: 170px;
+    margin: auto;
+    color: gainsboro;
+}
+.work-footer{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 230px;
+}
+/*media*/
+@media (max-width:400px) {
+    .work{
+        height: 1550px;
+    }
+    .part{
+        width: 300px;
+        height: 470px;
+        border: solid .5px gainsboro;
+        margin-bottom: 10px;
+    }
+    h1{
+        text-align: center;
+        padding-top: 10px;
+    }
+   .parts{
+        display: block;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    
+    
+    .work-footer{
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        top: 230px;
+    }
+    
+    
+    }
+   
+
+    
+
+@media screen and (min-width:401px) and (max-width:767px) {
+   .work{
+    height: 1550px;
+   }
+    h1{
+        text-align: center;
+    }
+   
+    
+  .parts{
+        display: block;
+        justify-content: center;
+        margin-top: 50px;
+        position: absolute;
+        margin-left: 110px;
+    }
+    
+    
+    .work-footer{
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        top: 230px;
+    }
+    .part{
+        margin-bottom: 10px;}
+    
+}
+@media screen and (min-width:768px) and (max-width:991px)  {
+    .work{
+        height: 1550px;
+    }
+    .work-title{position: relative;
+        left: 40%;
+    }
+   
+    
+  .parts{
+        display: block;
+        justify-content: center;
+        margin-top: 50px;
+        position: absolute;
+        margin-left: 200px;
+    }
+    
+    
+    .work-footer{
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        top: 230px;
+    }
+    .part{
+        margin-bottom: 10px;}
+    
+}
+
+   
+    
+    
+

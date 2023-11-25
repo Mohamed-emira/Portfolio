@@ -1,0 +1,194 @@
+.profile{
+    height: 350px;
+    display: flex;
+}
+.myprofile{
+    position: relative;
+    top: 30px;
+}
+.myprofile-title{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.profile .myprofile .myprofile-title span{font-weight: lighter;color: black;padding: 10px;}
+.profile .myprofile .myprofile-list .myprofile-item span{
+    color: black;
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+.myprofile-list{
+    list-style: none;
+    line-height: 2;
+}
+.profile .myprofile .myprofile-list .myprofile-item  .web{
+    color: orangered;
+}
+.someskills{
+    position: relative;
+    left: 300px;
+    top: 30px;
+}
+.someskills-title{
+    font-size: 40px;
+
+}
+.profile .someskills .someskills-title span{
+    font-weight: lighter;
+    color: black;
+    padding: 10px;
+}
+.someskills-details{
+    opacity: .7;
+    position: relative;
+    top: 20px;
+}
+.bar{position: relative;
+    top: 50px;}
+.bar-title{
+    line-height: 2;
+}    
+.bar-percent{
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
+.bar-percentage{
+    height: 2px;
+    background-color: whitesmoke;
+    clear: both;
+    position: relative;
+    bottom: 10px;
+}  
+.profile .someskills .bar .bar-item .bar-percentage span{
+    background: orangered;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.profile .someskills .bar .bar-item .bar-percentage span.sp1{
+    width: 100%;
+}
+.profile .someskills .bar .bar-item .bar-percentage span.sp2{
+    width: 90%;
+}
+.profile .someskills .bar .bar-item .bar-percentage span.sp3{
+    width: 80%;
+}
+/*media*/
+@media (max-width:400px) {
+    .profile{
+        height: 300px;
+        display: flex;
+    }
+    .myprofile{
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    .myprofile-title{
+        position: relative;
+        font-size: 20px;
+left: 70px;    }
+    .profile .myprofile .myprofile-title span{font-weight: lighter;color: black;padding: 10px;}
+    .profile .myprofile .myprofile-list .myprofile-item span{
+        color: black;
+        display: inline-block;
+        width: 70px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .myprofile-list{
+        list-style: none;
+        line-height: 2;
+        font-size: 12px;
+    }
+    .profile .myprofile .myprofile-list .myprofile-item  .web{
+        color: orangered;
+    }
+    .someskills{
+        position: relative;
+        left:-150px ;
+        top: 300px;
+    }
+    .someskills-title{
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    .profile .someskills .someskills-title span{
+        font-weight: lighter;
+        color: black;
+        padding: 10px;
+    }
+    .someskills-details{
+        opacity: .7;
+        position: relative;
+        top: 20px;
+        font-size: 12px;
+        width: 300px;
+    }
+    .bar{position: relative;
+        top: 50px;}
+    .bar-title{
+        line-height: 2;
+    }    
+    .bar-percent{
+        float: right;
+        position: relative;
+        bottom: 20px;
+    }
+    .bar-percentage{
+        height: 2px;
+        background-color: whitesmoke;
+        clear: both;
+        position: relative;
+        bottom: 10px;
+    }  
+    .profile .someskills .bar .bar-item .bar-percentage span{
+        background: orangered;
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .profile .someskills .bar .bar-item .bar-percentage span.sp1{
+        width: 100%;
+    }
+    .profile .someskills .bar .bar-item .bar-percentage span.sp2{
+        width: 90%;
+    }
+    .profile .someskills .bar .bar-item .bar-percentage span.sp3{
+        width: 80%;
+    }
+
+    
+
+    
+}
+@media screen and (min-width:401px) and (max-width:767px) {
+    .someskills{
+        position: relative;
+        left: 50px;
+        top: 30px;
+        border-left: solid 1px gainsboro;
+        padding-left: 40px;
+    }
+
+    
+    
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .someskills{
+        position: relative;
+        left: 50px;
+        top: 30px;
+        border-left: solid 1px gainsboro;
+        padding-left: 40px;
+    }
+    
+    
+}

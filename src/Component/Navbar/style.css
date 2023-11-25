@@ -1,0 +1,95 @@
+.navbar{
+    border-bottom: solid 1px;
+    padding-bottom: 50px;
+}
+.navbar-logo{
+    position: relative;
+    top: 25px;
+} 
+.ul-list{ position: absolute;
+    left: 50%;
+    top: 30px;
+    font-weight: bold;
+}
+.list-item{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar .ul-list .list-item anchor{
+    padding: 15px;
+}
+.navbar .ul-list .list-item:hover{
+    color: orangered;
+    transition:all 1s;  
+}
+
+.navbar .ul-list .list-item .active{
+text-decoration: none;
+color: black;
+}
+.navbar .ul-list .list-item .active:hover{
+    color: orangered;
+    transition:all 1s;
+}
+.navbar .ul-list .list-item .active:focus{
+    color: orangered;
+    transition:all 1s;
+}
+/*Media*/ 
+@media (max-width:400px) {
+    .navbar{
+        border-bottom: solid 1px;
+        padding-bottom: 200px;
+    }
+    .navbar-logo{
+        position: relative;
+        top: 20px;
+        font-size: 20px;
+    } 
+    .ul-list{ position: absolute;
+        left: 30%;
+        top: 60px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .list-item{
+        display: block;
+        cursor: pointer;
+        bottom: 15px;
+    }
+    .navbar .ul-list .list-item anchor{
+        padding: 10px;
+    }
+    .navbar .ul-list .list-item:hover{
+        color: orangered;
+        transition:all 1s;  
+        border-bottom: solid 1px;
+    }
+    
+    .navbar .ul-list .list-item .active{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 10px;
+    }
+    .navbar .ul-list .list-item .active:hover{
+        color: orangered;
+        transition:all 1s;}
+
+    
+}
+@media screen and (min-width:401px) and (max-width:767px) {
+    .ul-list{ position: absolute;left: 25%;
+    }
+    .navbar-logo{
+        position: relative;
+        font-size: 15px;
+    } 
+    
+}
+@media screen and (min-width:768px) and (max-width:991px)  {
+    .ul-list{ position: absolute;left: 35%;
+    }
+    
+}

@@ -1,0 +1,121 @@
+.About{
+    height: 500px;
+    background: url(/public/images/creative/about-bg.jpg);
+    background-attachment: fixed;
+}
+.About-details{
+    float: right;
+    position: relative;
+    right: 130px;
+    top: 150px;
+}
+.About .About-details .About-title{
+    font-size: 45px;
+    font-weight: lighter;
+}
+.About .About-details .About-title span{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
+.About .About-details  h2{
+    color: orangered;
+    font-size: 45px;
+}
+.About .About-details .p1{
+    position: relative;
+    top: 30px;
+    line-height: 1.5;
+}
+.About .About-details .p2{
+    position: relative;
+    top: 50px;
+    line-height: 1.5;
+}
+@media (max-width:400px) {
+    .About{
+        height: 500px;
+        background: url(/public/images/creative/about-bg.jpg);
+        background-attachment: fixed;
+        background-position: left;
+        margin-top: 300px;
+    }
+    .About-details{
+        position: relative;
+        right: 130px;
+        top: 50px;
+    }
+    .About .About-details .About-title{
+        font-size: 25px;
+        font-weight: lighter;
+        position: relative;
+        left: 110px;
+        bottom: 40px;
+
+    }
+    .About .About-details .About-title span{
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+        margin-left: 10px;
+    }
+    .About .About-details  h2{
+        color: orangered;
+        font-size: 25px;
+        position: relative;
+        left: 200px;
+        bottom: 20px;
+
+    }
+    .About .About-details .p1{
+        position: relative;
+        line-height: 1.5;
+        left: 150px;
+    }
+    .About .About-details .p2{
+        position: relative;
+        line-height: 1.5;
+        left:150px ;
+    }  
+    
+   
+}
+
+
+
+
+@media screen and (min-width:401px) and (max-width:767px) {
+    .About .About-details  h2{
+        color: orangered;
+        font-size: 45px;
+        position: relative;
+        left: 100px;
+    } 
+
+
+
+}
+@media screen and (min-width:768px) and (max-width:991px)  {
+    .About{
+        height: 500px;
+        background: url(/public/images/creative/about-bg.jpg);
+        background-attachment: fixed;
+    }
+    .About-details{
+        float: right;
+        position: relative;
+        right: 150px;
+        top: 150px;
+    }
+    .About .About-details .About-title{
+        font-size: 45px;
+        font-weight: lighter;
+position: relative;  
+left: 80px;
+  } 
+
+
+
+
+}
